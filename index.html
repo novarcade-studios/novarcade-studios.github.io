@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVARCADE Studios</title>
+  <meta name="description" content="NOVARCADE Studios: juegos arcade de neón para Android. Una plataforma con varios juegos, ranking mundial y cooperativo en línea." />
+  <link rel="icon" type="image/png" href="nova.png" />
+  <style>
+    :root { --fondo: #07051a; --texto: #e9e6ff; --suave: #a59fd6; --cian: #3ff3ff; --rosa: #ff4fd8; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; font-family: system-ui, Roboto, "Segoe UI", sans-serif; color: var(--texto);
+      background: radial-gradient(ellipse at top, #2a1260 0%, var(--fondo) 60%) fixed; line-height: 1.6;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; text-align: center; }
+    .logo { width: 140px; height: 140px; filter: drop-shadow(0 0 18px rgba(63, 243, 255, 0.55)); }
+    h1 { margin: 12px 0 4px; font-size: clamp(2rem, 7vw, 3.2rem); letter-spacing: 0.08em;
+      background: linear-gradient(90deg, var(--cian), var(--rosa)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .lema { margin: 0 0 36px; color: var(--suave); }
+    .tarjeta { text-align: left; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(63, 243, 255, 0.35);
+      border-radius: 16px; padding: 20px 22px; margin: 0 0 18px; box-shadow: 0 0 24px rgba(255, 79, 216, 0.12); }
+    .tarjeta h2 { margin: 0 0 6px; font-size: 1.25rem; color: var(--cian); }
+    .tarjeta p { margin: 0 0 10px; }
+    a { color: var(--rosa); font-weight: 600; }
+    .boton { display: inline-block; margin-top: 6px; padding: 10px 18px; border-radius: 999px; text-decoration: none;
+      color: #07051a; background: linear-gradient(90deg, var(--cian), var(--rosa)); }
+    ul { margin: 6px 0 0; padding-left: 20px; }
+    footer { margin-top: 36px; color: var(--suave); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="nova.png" alt="Nova, la mascota de NOVARCADE" />
+    <h1>NOVARCADE</h1>
+    <p class="lema">Juegos arcade de neón para jugar solo o con amigos</p>
+
+    <section class="tarjeta">
+      <h2>NOVARCADE para Android</h2>
+      <p>Una plataforma con varios juegos arcade en una sola app, con ranking mundial y por país, y partidas en
+        cooperativo en línea con tus amigos.</p>
+      <ul>
+        <li><strong>VORTEX ZERO</strong>: shooter de naves con jefes enormes, escudo, bomba y 5 mundos.</li>
+        <li>Próximamente: Bubble Duel, Block Rush y Memory Clash.</li>
+      </ul>
+      <a class="boton" href="https://play.google.com/store/apps/details?id=com.novarcade.app">Ver en Google Play</a>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Privacidad</h2>
+      <p>Cómo usamos los datos, los anuncios y las compras: <a href="https://sites.google.com/view/novarcade-privacidad">política de privacidad</a>.</p>
+      <p>Puedes borrar tus datos en línea desde la app: AJUSTES → BORRAR MIS DATOS EN LÍNEA.</p>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Contacto</h2>
+      <p>Escríbenos al correo de contacto que aparece en la ficha de NOVARCADE en Google Play.</p>
+    </section>
+
+    <footer>© 2026 NOVARCADE Studios · Colombia</footer>
+  </main>
+</body>
+</html>
